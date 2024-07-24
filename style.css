@@ -269,8 +269,8 @@ body {
   form{
     padding: 22px;
     border: 2px solid grey;
-    width: 422px;
-    border-radius: 12px;
+    width: 32vw;
+    border-radius: 12px;  
   }
   form label{
     font-size: 45px;
@@ -280,7 +280,7 @@ body {
   form input,textarea{
     color: #3974ea;
     background-color: antiquewhite;
-    width: 322px;
+    width: 26vw;
     border-radius: 9px;
     border: 5px double rgb(51, 48, 44);
   }
@@ -294,8 +294,8 @@ body {
     --😀😀: #4836bb;
     --😀😀😀: #654dff63;
     cursor: pointer;
-    width: 184px;
-    height: 48px;
+    width: 9vw;
+    height: 6vh;
     display: flex;
     align-items: center;
     justify-content: center;

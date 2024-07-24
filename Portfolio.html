@@ -123,20 +123,29 @@
       <div class="icon">
         <i class="devicon-arduino-plain colored" style="font-size:56px;"></i>
       </div>
-      <p class="title">AURDINO</p>
+      <p class="title">ARDUINO</p>
+      <p class="text">Check all your favourites in one place.</p>
+    </div>
+    <div class="card">
+      <div class="icon">
+        <i class="devicon-woocommerce-plain colored" style="font-size:56px;"></i>
+      </div>
+      <p class="title">WOO COMMERCE</p>
       <p class="text">Check all your favourites in one place.</p>
     </div>
   </div>
   <div class="section3">
     <h1 class="div2"><u>Contact Us</u></h1>
     <div>
-      <form action="#">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="35c522ea-5f3e-4628-88bd-f723e1017ad6">
         <label for="NAME">NAME</label><br>
-        <input type="text" placeholder="Enter Your Name"><br>
+        <input type="text" name="NAME" placeholder="Enter Your Name"><br>
         <label for="EMAIL">EMAIL</label><br>
-        <input type="text" placeholder="Enter Your Email Address"><br>
+        <input type="text" name="EMAIL" placeholder="Enter Your Email Address"><br>
         <label for="MASSAGE">MASSAGE</label><br>
-        <textarea placeholder="Share Your Massage"></textarea><br>
+        <textarea name="MASSAGE" placeholder="Share Your Massage"></textarea><br>
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;"><br>
         <button>SEND</button>
       </form>
       <div class="main">

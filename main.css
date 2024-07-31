@@ -1,0 +1,419 @@
+body {
+    background-color: #1A120B;
+    margin: 0;
+  }
+
+  .nav {
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+  .nav-list {
+    width: 100%;
+    list-style-type: none;
+    margin: 2px 220px 0px 220px;
+    padding: 15px;
+    text-align: center;
+    background: linear-gradient(to right, grey, rgb(0, 0, 0), grey, rgb(0, 0, 0), grey);
+    border-radius: 20px;
+  }
+
+  .nav-list-element {
+    display: inline ;
+    font-family: 'rog fonts';
+    float: right;
+    border-radius: 35px;
+    padding: 0px 12px 0px;
+    width: fit-content;
+  }
+
+
+  .nav-list-element a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-list-element a:hover {
+    color: rgb(188, 142, 142);
+
+  }
+
+  .drop {
+    list-style: none;
+    padding: 27px 20px 0px 0px;
+    margin-right: 15px;
+    position: absolute;
+    display: none;
+    border-radius: 20px;
+  }
+
+  .nav-list-element:hover .drop {
+    display: block;
+  }
+
+  .drop a {
+    display: block;
+    background-color: grey;
+    color: rgb(199, 56, 56);
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  .drop a:hover {
+    color: rgb(76, 54, 54);
+  }
+
+  .section1{
+    background:#3C2A21 ;
+    width: 100%;
+     height: 865px;
+  }
+  .box1 {
+    border-radius: 35px;
+    height: 600px;
+    width: 570px;
+    margin-top: 120px;
+    margin-left: 60PX;
+    background: transparent;
+    text-align: center;
+    transition: all 1s  ease-in-out;
+  }
+
+
+
+  .buttons {
+    --😀: #4dcaff;
+    --😀😀: #367fbb;
+    --😀😀😀: #4dc7ff63;
+    cursor: pointer;
+    width: 184px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.125em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    background: var(--😀);
+    border: 2px solid var(--😀😀);
+    border-radius: .75rem;
+    box-shadow: 0 8px 0 var(--😀😀);
+    transform: skew(-10deg);
+    transition: all .1s ease;
+    filter: drop-shadow(0 15px 20px var(--😀😀😀));
+  }
+
+  .buttons:hover {
+    border-radius: 10px;
+    font-family: 'forte';
+    transform: scale(1.2);
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.395), rgba(0, 0, 255, 0.449));
+  }
+
+  .buttons a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+  }
+
+  .box2 {
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    left: 690px;
+    background: white;
+    border-radius: 50%;
+  }
+
+  .img1 {
+    height: 730px;
+    width: 780px;
+    filter: grayscale(100%);
+    transition: all 3s ease-out;
+    border-radius: 50%;
+  }
+
+  .img1:hover {
+    filter: grayscale(0%);
+    transition: all 5s;
+    background: linear-gradient(90deg, rgba(255, 255, 0, 0.523), rgba(0, 0, 255, 0.452));
+  }
+  .div2{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-family: 'forte';
+    color: rgb(0, 170, 255);
+  }
+  .section2{
+    background-color:#D5CEA3;
+    width: 100%; 
+    height: fit-content;
+  }
+  .section2 .card{
+    margin: 35px;
+    display: inline-flex;
+  }
+  .card {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    height: 280px;
+    background-color: #292929;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-family: 'forte';
+  }
+  
+  .icon {
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    max-width: 80px;
+    background: linear-gradient(90deg, #7eaaff 0%, #ff48fb 40%, rgba(0, 0, 0, 0.28) 60%);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.8s ease;
+    background-position: 0px;
+    background-size: 200px;
+  }
+  
+  .icon svg {
+    fill: white;
+  }
+  
+  .card .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  .card .text {
+    width: 80%;
+    font-family: arial;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    height: 370px;
+  }
+  
+  .card:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+  }
+  .card .text a{
+    text-decoration: none;
+  }
+  .card:hover .icon {
+    background-position: -120px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover .icon svg path {
+    fill: url('#gradientColor');
+    transition: all 0.3s ease;
+  }
+  .section3{
+    background-color: #E5E5CB ;
+    width: 100%;
+     height: 800px;
+  }
+  .section3 div{
+    margin-left: 35px;
+    
+  }
+  form{
+    padding: 22px;
+    border: 2px solid grey;
+    width: 32vw;
+    border-radius: 12px;  
+  }
+  form label{
+    font-size: 45px;
+    font-family: Anydore;
+    padding: 12px;
+  }
+  form input,textarea{
+    color: #3974ea;
+    background-color: antiquewhite;
+    width: 26vw;
+    border-radius: 9px;
+    border: 5px double rgb(51, 48, 44);
+  }
+  form textarea{
+    height: 105px;
+    max-width:100% ;
+  }
+  form button{
+    margin: 12px;
+    border-radius: 5px;
+    --😀: #644dff;
+    --😀😀: #4836bb;
+    --😀😀😀: #654dff63;
+    cursor: pointer;
+    width: 9vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.125em;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    background: var(--😀);
+    border: 2px solid var(--😀😀);
+    border-radius: .75rem;
+    box-shadow: 0 8px 0 var(--😀😀);
+    transform: skew(-10deg);
+    transition: all .1s ease;
+    filter: drop-shadow(0 15px 20px var(--😀😀😀));
+  }
+  form button:active{
+    letter-spacing: 0px;
+  transform: skew(-10deg) translateY(8px);
+  box-shadow: 0 0 0 var(--😀😀😀);
+  }
+  .main {
+    float: right;
+    margin-top:-470px;
+    margin-right: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+  }
+  
+  .card1 {
+    width: 190px;
+    height: 190px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 190px;
+    height: 190px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .facebook {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 190px;
+    height: 190px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .whatsapp {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+    fill: #00ff00;
+  }
+  
+  .card4 {
+    width: 190px;
+    height: 190px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+  
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+  
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+  
+  .footer{
+    color: white;
+    text-align: center;
+  }

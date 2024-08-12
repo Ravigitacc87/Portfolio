@@ -165,7 +165,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 310px;
+  margin-left: 350px;
   padding-top: 165px;
   font-family: "Blackword";
 }
@@ -191,7 +191,7 @@ body {
   0%,
   100% {
     clip-path: polygon(
-      0% 45%,
+      0% 35%,
       16% 44%,
       33% 50%,
       54% 60%,
